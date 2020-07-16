@@ -18,8 +18,8 @@ public class Calc
         return a * b;
     }
 
-    // static public float divide (int a , int b) {
-    //     float result = (float) a / b;
-    //     return result;
-    // }
+    static public float divide (int a , int b) {
+        float result = (float) a / b;
+        return result;
+    }
 }
