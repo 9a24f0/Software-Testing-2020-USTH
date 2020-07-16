@@ -17,4 +17,9 @@ public class Calc
     static public int multiply(int a, int b) {
         return a * b;
     }
+
+    static public float divide (int a , int b) {
+        float result = (float) a / b;
+        return result;
+    }
 }
