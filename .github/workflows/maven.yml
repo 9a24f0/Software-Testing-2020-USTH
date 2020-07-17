@@ -21,4 +21,4 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Maven
-      run: mvn -B package --file .idea/Software-Testing-2020-USTH.iml
+      run: mvn -B package --file pom.xml
